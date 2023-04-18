@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson_10_form_js</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+    <form action="" method="get">
+        <b>Name</b>
+        <input type="text" placeholder="Enter name"/>
+        <br/><br/>
+        <input type="submit" value="Save"/>
+        <button id="addBtn">One more phone</button>
+        <br/><br/>
+        <span>Phone number</span>
+        <input type="text" name="phone" id="ph"
+            placeholder="Enter phone number" />
+        <span>Phone type</span>
+        <select name="type">
+        <option value="1" selected>Cellular</option>
+        <option value="2">Home</option>
+        <option value="3">Work</option>
+        </select>
+        <span>Priority</span>
+        <input type="radio" name="main" value="1" checked />
+        <button id="button">Elements</button>
+        <p id="out"></p>
+    </form>
+
+</body>
+<script src="./js/index.js"></script>
+</html>
